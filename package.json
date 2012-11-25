@@ -1,0 +1,11 @@
+{
+"name": "node-cat",
+"version": "0.1.2",
+"dependencies": {
+"commander": "1.0.x"
+},
+"description": "netcat clone written with node.js",
+"tags": ["netcat", "tcp client"],
+"bin": "./index.js",
+"preferGlobal": true
+}
