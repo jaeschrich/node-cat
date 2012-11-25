@@ -7,5 +7,6 @@
 "description": "netcat clone written with node.js",
 "tags": ["netcat", "tcp client"],
 "bin": "./index.js",
-"preferGlobal": true
+"preferGlobal": true,
+"repository": "https://github.com/PyScripter255/node-cat/"
 }
