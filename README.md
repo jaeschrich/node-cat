@@ -5,6 +5,11 @@ A netcat clone written to replace the built-in Windows telnet client. The nodejs
 $ node-cat <host> <port>
 ```
 
+## Install
+```
+npm install node-cat
+```
+
 ##Example
 Using the nodejs TCP echo server example.
 
