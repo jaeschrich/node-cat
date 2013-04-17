@@ -1,12 +1,13 @@
 {
-"name": "node-cat",
-"version": "0.1.3",
-"dependencies": {
-"commander": "1.0.x"
-},
-"description": "netcat clone written with node.js",
-"tags": ["netcat", "tcp client"],
-"bin": "./index.js",
-"preferGlobal": true,
-"repository": "https://github.com/PyScripter255/node-cat/"
+    "name": "node-cat",
+    "version": "0.1.3",
+    "dependencies": {
+        "commander": "1.0.x"
+    },
+    "description": "netcat clone written with node.js",
+    "tags": ["netcat", "tcp client"],
+    "bin": "./node-cat.js",
+    "preferGlobal": true,
+    "repository": "https://github.com/PyScripter255/node-cat/",
+    "main": "./index.js"
 }

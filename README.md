@@ -22,3 +22,14 @@ Hello World!
 ending session
 $
 ```
+
+##Advanced Usage
+```node-cat``` can be embeded in any node program.
+
+```javascript
+var nc = require("node-cat");
+
+var client = nc.createClient(host, port);
+
+client.start();
+```
