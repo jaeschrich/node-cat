@@ -63,7 +63,7 @@ Client.prototype.start = function(cb){
             client.end();
             process.exit(0);
         });
-        cb(client, rl, process.stdin, process.stdout);
+        if (cb) cb(client, rl, process.stdin, process.stdout);
     });
 };
 
