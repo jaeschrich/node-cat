@@ -33,7 +33,7 @@ var client = nc.createClient(host, port);
 
 client.start(
 function(client /* the tcp client returned by net.connect */, rl /* readline instance */, stdin, stdout){
-	client.write("STATUS: None of your buisness");
+	client.write("STATUS: None of your business");
 	stdout.write("Sent status.");
 });
 ```
