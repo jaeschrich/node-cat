@@ -18,6 +18,6 @@ console.log('testing it\n');
 
 var client = nodeCat.createClient(IP, PORT); // you can change this
 client.start(function(client, rl, stdin, stdout){
+	client.write("STATUS: None of your business\n");
 	stdout.write("Sent status\n")
-	client.write("STATUS: None of your buisness\n");
 });
