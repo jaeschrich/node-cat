@@ -16,7 +16,7 @@ function Client(host, port){
  * @method start
  * start the client
  */
-Client.prototype.start = function(){
+Client.prototype.start = function(cb){
   // create readline interface
     var rl = readline.createInterface(process.stdin, process.stdout);
     
@@ -24,7 +24,8 @@ Client.prototype.start = function(){
     
     // create TCP client
     var client = net.connect({host: this.host, port: this.port}, function(){
-          // write out connection details
+
+        // write out connection details
         console.log("Connected to %s:%d\n", self.host, self.port);
         
         rl.on("line", function(d){
@@ -61,7 +62,8 @@ Client.prototype.start = function(){
             // close connection
             client.end();
             process.exit(0);
-        });   
+        });
+        cb(client, rl, process.stdin, process.stdout);
     });
 };
 
