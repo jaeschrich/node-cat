@@ -49,7 +49,6 @@ Client.prototype.start = function(cb){
             // end readline
             process.stdout.write("\nconnection closed by foreign host.\n");
             rl.close();
-            process.exit(0);
         });
         
         rl.on("SIGINT", function(){
