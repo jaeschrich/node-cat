@@ -60,7 +60,6 @@ Client.prototype.start = function(cb){
             
             // close connection
             client.end();
-            process.exit(0);
         });
         if (cb) cb(client, rl, process.stdin, process.stdout);
     });

@@ -10,9 +10,8 @@ program
 .usage("<host> <port>")
 .parse(process.argv);
 
-if (process.argv.length < 2){
-    console.log("see node-cat -h")
-    process.exit(0);
+if (program.args.length < 2){
+    console.log("see node-cat -h");
 }
 
 else {
