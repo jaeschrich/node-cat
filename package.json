@@ -1,6 +1,7 @@
 {
     "name": "node-cat",
-    "version": "0.3.3",
+    "version": "0.3.4",
+    "author": "James A. Eschrich",
     "dependencies": {
         "commander": "1.0.x"
     },
