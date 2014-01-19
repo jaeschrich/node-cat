@@ -9,6 +9,6 @@
     "tags": ["netcat", "tcp client"],
     "bin": "./node-cat.js",
     "preferGlobal": true,
-    "repository": "https://github.com/PyScripter255/node-cat/",
+    "repository": "https://github.com/bvirus/node-cat/",
     "main": "./index.js"
 }
